@@ -1,0 +1,130 @@
+[
+{
+    "model": "flow.state",
+    "pk": 1,
+    "fields": {
+        "name": "Created",
+        "code": "CRET"
+    }
+},
+{
+    "model": "flow.state",
+    "pk": 2,
+    "fields": {
+        "name": "Picked",
+        "code": "PICK"
+    }
+},
+{
+    "model": "flow.state",
+    "pk": 3,
+    "fields": {
+        "name": "Received",
+        "code": "RECD"
+    }
+},
+{
+    "model": "flow.state",
+    "pk": 4,
+    "fields": {
+        "name": "Shelved",
+        "code": "SLVD"
+    }
+},
+{
+    "model": "flow.state",
+    "pk": 5,
+    "fields": {
+        "name": "Ready To Dispatch",
+        "code": "RTDP"
+    }
+},
+{
+    "model": "flow.state",
+    "pk": 6,
+    "fields": {
+        "name": "Dispatched",
+        "code": "DSPD"
+    }
+},
+{
+    "model": "flow.state",
+    "pk": 7,
+    "fields": {
+        "name": "Delivered",
+        "code": "DLVD"
+    }
+},
+{
+    "model": "flow.statetransition",
+    "pk": 1,
+    "fields": {
+        "source": 1,
+        "target": 2
+    }
+},
+{
+    "model": "flow.statetransition",
+    "pk": 2,
+    "fields": {
+        "source": 2,
+        "target": 3
+    }
+},
+{
+    "model": "flow.statetransition",
+    "pk": 3,
+    "fields": {
+        "source": 6,
+        "target": 3
+    }
+},
+{
+    "model": "flow.statetransition",
+    "pk": 4,
+    "fields": {
+        "source": 3,
+        "target": 4
+    }
+},
+{
+    "model": "flow.statetransition",
+    "pk": 5,
+    "fields": {
+        "source": 4,
+        "target": 4
+    }
+},
+{
+    "model": "flow.statetransition",
+    "pk": 6,
+    "fields": {
+        "source": 5,
+        "target": 4
+    }
+},
+{
+    "model": "flow.statetransition",
+    "pk": 7,
+    "fields": {
+        "source": 4,
+        "target": 5
+    }
+},
+{
+    "model": "flow.statetransition",
+    "pk": 8,
+    "fields": {
+        "source": 5,
+        "target": 6
+    }
+},
+{
+    "model": "flow.statetransition",
+    "pk": 9,
+    "fields": {
+        "source": 6,
+        "target": 7
+    }
+}
+]
